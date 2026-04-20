@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(handyman.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.menu{
+    width: 600px;
+    float: right;
+    height: 50px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: blue;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content .par{
+    padding: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: Arial;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.service{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.service.par{
+    padding: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.contact{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+}
+.contact h1{
+    padding: auto;
+    padding-top: 6px;
+    padding-bottom: 50px;
+}
+.appointment{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+}
+.appointment h1{
+    padding: auto;
+    padding-top: 6px;
+    padding-bottom: 50px;
+}
+.footer{
+    padding: auto;
+    position: fixed;
+    left: 0;
+}
